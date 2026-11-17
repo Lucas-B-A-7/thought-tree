@@ -1,6 +1,6 @@
 /* Generated at build time. Offline cache for Thought Tree. */
-const CACHE = 'thought-tree-2c7807bca722'
-const FILES = ["./","./assets/embed.worker-CUneVrv8.js","./assets/index-1XgvFtXk.css","./assets/index-DlyHvGEE.js","./assets/sample-events-DmJoPVbY.js","./assets/supabase-backend-6_3Tgf3c.js","./icons/apple-touch-icon.png","./icons/icon-192.png","./icons/icon-512.png","./index.html","./manifest.webmanifest","./models/Xenova/gte-small/config.json","./models/Xenova/gte-small/onnx/model_quantized.onnx","./models/Xenova/gte-small/special_tokens_map.json","./models/Xenova/gte-small/tokenizer.json","./models/Xenova/gte-small/tokenizer_config.json","./ort/ort-wasm-simd-threaded.asyncify.mjs","./ort/ort-wasm-simd-threaded.asyncify.wasm"]
+const CACHE = 'thought-tree-5be1c867e70e'
+const FILES = ["./","./assets/embed.worker-CUneVrv8.js","./assets/index-FbpAubcS.js","./assets/index-kR-mkmw_.css","./assets/sample-events-DmJoPVbY.js","./assets/supabase-backend-6_3Tgf3c.js","./icons/apple-touch-icon.png","./icons/icon-192.png","./icons/icon-512.png","./index.html","./manifest.webmanifest","./models/Xenova/gte-small/config.json","./models/Xenova/gte-small/onnx/model_quantized.onnx","./models/Xenova/gte-small/special_tokens_map.json","./models/Xenova/gte-small/tokenizer.json","./models/Xenova/gte-small/tokenizer_config.json","./ort/ort-wasm-simd-threaded.asyncify.mjs","./ort/ort-wasm-simd-threaded.asyncify.wasm"]
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES.map((f) => new URL(f, self.registration.scope).href))))
   self.skipWaiting()
